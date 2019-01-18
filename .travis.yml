@@ -9,5 +9,4 @@ jdk:
   - opejdk9
   - openjdk10
   - openjdk11
-  
-  gradle test
+
