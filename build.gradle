@@ -9,9 +9,13 @@
 plugins {
     // Apply the java plugin to add support for Java
     id 'java'
-
+    id 'checkstyle'
     // Apply the application plugin to add support for building an application
     id 'application'
+}
+
+checkstyle {
+    configFile = new File(rootDir, "style.xml")    
 }
 
 repositories {
