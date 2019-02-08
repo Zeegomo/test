@@ -16,6 +16,7 @@ plugins {
 
 checkstyle {
     configFile = new File(rootDir, "style.xml")    
+    maxWarnings = 0
 }
 
 repositories {
